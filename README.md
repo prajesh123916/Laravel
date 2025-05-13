@@ -1,2 +1,1 @@
 # Laravel
-* In Progress *

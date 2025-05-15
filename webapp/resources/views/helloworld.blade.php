@@ -1,1 +1,6 @@
-<h1>Hello World!!</h1>
+<form action="{{ url('/update') }}" method="POST">
+    @csrf
+    @method('PUT')
+    <!-- form fields -->
+    <button type="submit">Update</button>
+</form>

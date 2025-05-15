@@ -9,3 +9,11 @@ Route::get('/', function () {
 Route::get('/hello', function(){
     return "Welcome to PythonCodeVerse";
 });
+
+Route::post('/submit', function(){
+    return view('helloworld');
+});
+
+Route::put('/update', function(){
+    return view('helloworld');
+});
